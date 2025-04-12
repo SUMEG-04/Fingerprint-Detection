@@ -1,0 +1,24 @@
+.footer{
+    height: 100px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+.footer-logo{
+    background-color: #000;
+    width: 100px;
+    height: 100px;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.footer-links a{
+    text-decoration: none;
+    color: #000;
+}

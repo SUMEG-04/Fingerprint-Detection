@@ -1,0 +1,163 @@
+.fingerprint-upload {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.upload-container {
+  text-align: center;
+}
+
+.upload-container h1 {
+  color: #182848;
+  margin-bottom: 15px;
+}
+
+.upload-container p {
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.upload-box {
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  transition: border-color 0.3s ease;
+}
+
+.upload-box:hover {
+  border-color: #182848;
+}
+
+#fingerprint-input {
+  display: none;
+}
+
+.upload-label {
+  cursor: pointer;
+  display: block;
+}
+
+.upload-label i {
+  font-size: 48px;
+  color: #4b6cb7;
+  margin-bottom: 10px;
+}
+
+.upload-label span {
+  display: block;
+  color: #666;
+}
+
+.preview-image {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 4px;
+}
+
+.status-message {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.status-message.error {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.upload-button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(to right, #182848, #4b6cb7);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.upload-button:hover {
+  opacity: 0.9;
+}
+
+.upload-button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.upload-guidelines {
+  margin-top: 30px;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.upload-guidelines h3 {
+  color: #182848;
+  margin-bottom: 15px;
+}
+
+.upload-guidelines ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.upload-guidelines li {
+  color: #666;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.upload-guidelines li:before {
+  content: "•";
+  color: #4b6cb7;
+  position: absolute;
+  left: 0;
+}
+
+@media (max-width: 768px) {
+  .fingerprint-upload {
+    margin: 20px;
+    padding: 20px;
+  }
+}
+
+.match-result {
+  color: black;
+  padding: 1rem;
+  background: #f4f4f4;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.image-results {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.image-box{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.image-box h3{
+  color: black;
+}
+
+
+.result-image {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
